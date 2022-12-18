@@ -1,5 +1,6 @@
 import Counter from './Counter';
 import MyComponent from './MyComponent';
+import Say from './Say';
 
 const App = () => {
   return (
@@ -11,6 +12,9 @@ const App = () => {
       </div>
       <div>
         <Counter />
+      </div>
+      <div>
+        <Say />
       </div>
     </div>
   );
